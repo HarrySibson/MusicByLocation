@@ -28,7 +28,7 @@ class StateController: ObservableObject {
     
     func getArtists(search: String){
         let baseUrl = "https://itunes.apple.com"
-        let path =  "/search?term=\(search)&entity=musicArtist".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
+        let path =  "/search?term=\(search)&entity=musicArtist".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
         guard let url = URL(string: baseUrl + path)
         else {
             print("Invalid URL")
