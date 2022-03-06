@@ -19,6 +19,7 @@
 		83B3012F27CFC50800E72C33 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B3012E27CFC50800E72C33 /* StateController.swift */; };
 		83B3013227CFD3F100E72C33 /* ArtistResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B3013127CFD3F100E72C33 /* ArtistResponse.swift */; };
 		83B3013427CFD43E00E72C33 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B3013327CFD43E00E72C33 /* Artist.swift */; };
+		83B3013627D4DB1C00E72C33 /* ITunesAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B3013527D4DB1C00E72C33 /* ITunesAdaptor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		83B3012E27CFC50800E72C33 /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 		83B3013127CFD3F100E72C33 /* ArtistResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistResponse.swift; sourceTree = "<group>"; };
 		83B3013327CFD43E00E72C33 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		83B3013527D4DB1C00E72C33 /* ITunesAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesAdaptor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				83B3010527CE6F1E00E72C33 /* Preview Content */,
 				83B3012927CE703300E72C33 /* LocationHandler.swift */,
 				83B3012E27CFC50800E72C33 /* StateController.swift */,
+				83B3013527D4DB1C00E72C33 /* ITunesAdaptor.swift */,
 			);
 			path = MusicByLocation;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83B3012A27CE703400E72C33 /* LocationHandler.swift in Sources */,
+				83B3013627D4DB1C00E72C33 /* ITunesAdaptor.swift in Sources */,
 				83B3013227CFD3F100E72C33 /* ArtistResponse.swift in Sources */,
 				83B3010227CE6F1D00E72C33 /* ContentView.swift in Sources */,
 				83B3010027CE6F1D00E72C33 /* MusicByLocationApp.swift in Sources */,
